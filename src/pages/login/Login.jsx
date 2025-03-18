@@ -8,7 +8,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    navigate("/music-library");
+    navigate("/music-player");
   };
 
   return (
@@ -29,7 +29,7 @@ const Login = () => {
           onChange={(e) => setPassword(e.target.value)}
           required
         />
-        <button onClick={"/music-library"} type="submit">
+        <button onClick={"/music-player"} type="submit">
           Login
         </button>
       </form>
