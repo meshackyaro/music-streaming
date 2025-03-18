@@ -1,0 +1,86 @@
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.spotify-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.playlist-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.song-list {
+  background-color: #181818;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.song-header {
+  display: grid;
+  grid-template-columns: 50px 2fr 1fr 1fr;
+  padding: 10px 20px;
+  border-bottom: 1px solid #282828;
+  color: #b3b3b3;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.song-row {
+  display: grid;
+  grid-template-columns: 50px 2fr 1fr 1fr;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #282828;
+  transition: background-color 0.2s;
+}
+
+.song-row:hover {
+  background-color: #282828;
+}
+
+.song-index {
+  color: #b3b3b3;
+}
+
+.song-title {
+  display: flex;
+  align-items: center;
+}
+
+.song-image {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  margin-right: 15px;
+  border-radius: 4px;
+}
+
+.song-details a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.song-details a:hover {
+  text-decoration: underline;
+}
+
+.song-details p {
+  color: #b3b3b3;
+  font-size: 14px;
+  margin: 0;
+}
+
+.song-album,
+.song-date {
+  color: #b3b3b3;
+  font-size: 14px;
+}
