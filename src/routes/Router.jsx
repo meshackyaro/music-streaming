@@ -7,10 +7,12 @@ export const ROUTES = [
     path: "/",
     element: <Layout />,
   },
+
   {
     path: "/login",
     element: <Login />,
   },
+  
   {
     path: "/music-player",
     element: <MusicPlayer />,
