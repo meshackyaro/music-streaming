@@ -1,4 +1,5 @@
 import Layout from "../components/layout/Layout";
+import Login from "../pages/login/Login";
 
 export const ROUTES = [
     {
@@ -6,6 +7,8 @@ export const ROUTES = [
         element: <Layout/>
     },
     {
-        
-    }
+        path: "/login",
+        element: <Login/>
+    },
+    
 ]
